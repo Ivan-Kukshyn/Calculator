@@ -1,3 +1,43 @@
-This is a fifth project "Calculator" following The Odin Project course.
+<html lang="en">
 
-The final project will combine everything learned so far: creating an on-screen calculator using JavaScript, HTML, and CSS.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="calc">
+        <div class="form-group">
+            <input type="text" class="form-control calc__result-field">
+        </div>
+        <div class="calc__body">
+            <div class="calc__nums">
+                <button class="btn btn-secondary btn-reset btn-reset">C</button>
+                <button class="btn  btn-add-res">7</button>
+                <button class="btn  btn-add-res">8</button>
+                <button class="btn  btn-add-res">9</button>
+                <button class="btn  btn-add-res">4</button>
+                <button class="btn  btn-add-res">5</button>
+                <button class="btn  btn-add-res">6</button>
+                <button class="btn  btn-add-res">1</button>
+                <button class="btn  btn-add-res">2</button>
+                <button class="btn  btn-add-res">3</button>
+                <button class="btn  btn-zero btn-add-res">0</button>
+                <button class="btn  btn-add-res">.</button>
+            </div>
+            <div class="calc__operators">
+                <button class="btn  btn-add-res">+</button>
+                <button class="btn  btn-add-res">-</button>
+                <button class="btn  btn-add-res">/</button>
+                <button class="btn  btn-add-res">*</button>
+                <button class="btn  btn-calc">=</button>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
